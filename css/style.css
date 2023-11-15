@@ -13,7 +13,7 @@ section{
 	align-items: center;
 	width: 100%;
 	min-height: 100vh;
-	background: url(https://drive.google.com/file/d/1vuhInYA0azn3HPk4wz9CCoMehdYxmpa3/view?usp=sharing) no-repeat;
+	background: url(http://drive.google.com/uc?export=view&id=1vuhInYA0azn3HPk4wz9CCoMehdYxmpa3) no-repeat;
 	background-position: center;
 	background-size: cover;
 }
@@ -23,6 +23,7 @@ section{
 	position: relative;
 	width: 400px;
 	border: 2px solid rgba(255, 255, 255, .6);
+	backdrop-filter: blur(15px);
 	border-radius: 20px;
 	height: 450px;
 	display: flex;
