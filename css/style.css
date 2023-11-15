@@ -25,7 +25,7 @@ section{
 	border: 2px solid rgba(255, 255, 255, .6);
 	border-radius: 20px;
 	backdrop-filter: blur(15px);
-	height: 450;
+	height: 450px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -51,7 +51,7 @@ section{
 	position: absolute;
 	top: 50%;
 	left: 5px;
-	transform: translateY(-50);
+	transform: translateY(-50%);
 	color: #fff;
 	font-size: 1rem;
 	pointer-events: none;
@@ -61,7 +61,7 @@ section{
 
 
 input:focus ~ label,
-input:focus ~ label,
+input:valid ~ label{
 	top: -5px
 }
 
