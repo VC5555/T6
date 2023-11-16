@@ -21,7 +21,7 @@ section{
 
 .contenedor{
 	position: relative;
-	width: 400px;
+	width: 700px;
 	border: 2px solid rgba(255, 255, 255, .6);
 	backdrop-filter: blur(15px);
 	border-radius: 20px;
@@ -33,7 +33,7 @@ section{
 
 
 .contenedor h2{
-	font-size: 4.3rems;
+	font-size: 2.3rems;
 	color: #fff;
 	text-align: center;
 }
