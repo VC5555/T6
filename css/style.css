@@ -21,11 +21,11 @@ section{
 
 .contenedor{
 	position: relative;
-	width: 700px;
+	width: 400px;
 	border: 2px solid rgba(255, 255, 255, .6);
 	backdrop-filter: blur(15px);
 	border-radius: 20px;
-	height: 750px;
+	height: 450px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -141,7 +141,13 @@ button:hover{
 .registrar p a:hover{
 	text-decoration: underline;
 }
-	
+
+.row{
+	margin: -5px 0 5px;
+	font-size: .6em;
+	color: #fff;
+	display: flex;
+	justify-content: center;
 	
 
 
